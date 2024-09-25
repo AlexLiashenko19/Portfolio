@@ -1,5 +1,6 @@
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/hero-img.png'
+import heroImgdarrk from '../../assets/Resume-dark-back.png'
+import heroImgwhite from '../../assets/Resume-white-back.jpg'
 import sunIcon from '../../assets/sun.svg'
 import moonIcon from '../../assets/moon.svg'
 import instagrammLight from '../../assets/icons8-instagram.svg'
@@ -14,6 +15,7 @@ import { useTheme } from '../../common/ThemeContext'
 const Hero = () => {
     const {theme, toggleTheme} = useTheme()
 
+    const heroImg = theme ===  'light' ? heroImgwhite : heroImgdarrk 
     const themeIcon = theme ===  'light' ? sunIcon : moonIcon
     const instagrammIcon = theme ===  'light' ? instagrammLight : instagrammDark
     const gitHubIcon = theme ===  'light' ? gitHubLight : gitHubDark
