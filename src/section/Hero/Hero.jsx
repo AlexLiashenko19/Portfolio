@@ -1,6 +1,6 @@
 import styles from './HeroStyles.module.css'
 import heroImgdarrk from '../../assets/Resume-dark-back.png'
-import heroImgwhite from '../../assets/Resume-white-back.jpg'
+import heroImgwhite from '../../assets/Resume-dark-white.png'
 import sunIcon from '../../assets/sun.svg'
 import moonIcon from '../../assets/moon.svg'
 import instagrammLight from '../../assets/icons8-instagram.svg'
