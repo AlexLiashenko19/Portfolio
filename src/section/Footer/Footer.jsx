@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section id='footer' className={styles.container}>
       <p>
-        &copy; 2024 Oleksande Liashenko. <br/>
+        &copy; 2024 Oleksandr Liashenko. <br/>
         All rights reserved.
         </p>
     </section>

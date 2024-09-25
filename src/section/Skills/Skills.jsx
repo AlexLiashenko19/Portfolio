@@ -20,7 +20,7 @@ const Skills = () => {
         <SkillList icon={checkMarkIcon} skill='Webpack'/>
         <SkillList icon={checkMarkIcon} skill='Git'/>
         <SkillList icon={checkMarkIcon} skill='Jest'/>
-        <SkillList icon={checkMarkIcon} skill='Bootsrap'/>
+        <SkillList icon={checkMarkIcon} skill='Tailwind'/>
         <SkillList icon={checkMarkIcon} skill='SQL/NoSQL'/>
       </div>
     </section>

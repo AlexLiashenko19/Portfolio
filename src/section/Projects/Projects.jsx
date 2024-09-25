@@ -2,6 +2,8 @@ import ProjectCard from '../../common/ProjectCard'
 import styles from './Projects.Styles.module.css'
 import cinemania from '../../assets/viberr.png'
 import cryptoApp from '../../assets/icons8-crypto-256.png'
+import fitnes from  '../../assets/fitlift.png'
+
 
 const Projects = () => {
   return (
@@ -20,9 +22,16 @@ const Projects = () => {
         h3="Cryptiks"
         p="Crypto App"
         />
+        <ProjectCard 
+        src={fitnes}
+        link="https://fitness-application-azure.vercel.app/"
+        h3="Fitnes App"
+        p="Fitnes App"
+        />
       </div>
     </section>
   )
 }
+
 
 export default Projects
