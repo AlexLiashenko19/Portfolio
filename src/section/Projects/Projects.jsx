@@ -3,6 +3,8 @@ import styles from './Projects.Styles.module.css'
 import cinemania from '../../assets/viberr.png'
 import cryptoApp from '../../assets/icons8-crypto-256.png'
 import fitnes from  '../../assets/fitlift.png'
+import twitti from  '../../assets/icons8-x-twitti-250.png'
+
 
 
 const Projects = () => {
@@ -10,6 +12,12 @@ const Projects = () => {
     <section id="projects" className={styles.container}>
       <h1 className='sectionTitle'>Projects</h1>
       <div className={styles.projectContainer}>
+      <ProjectCard 
+        src={twitti}
+        link=""
+        h3="Social Media App"
+        p="Social Media App"
+        />
         <ProjectCard 
         src={cinemania}
         link="https://andre29839.github.io/error-404_team_name_not_found/"
