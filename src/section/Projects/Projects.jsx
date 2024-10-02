@@ -14,7 +14,7 @@ const Projects = () => {
       <div className={styles.projectContainer}>
       <ProjectCard 
         src={twitti}
-        link=""
+        link="https://twitti.onrender.com/profile/Alex"
         h3="Social Media App"
         p="Social Media App"
         />
