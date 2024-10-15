@@ -4,7 +4,7 @@ import cinemania from '../../assets/viberr.png'
 import cryptoApp from '../../assets/icons8-crypto-256.png'
 import fitnes from  '../../assets/fitlift.png'
 import twitti from  '../../assets/icons8-x-twitti-250.png'
-
+import chat from  '../../assets/live-chat.png'
 
 
 const Projects = () => {
@@ -23,6 +23,12 @@ const Projects = () => {
         link="https://andre29839.github.io/error-404_team_name_not_found/"
         h3="Cinemania"
         p="Cinema App"
+        />
+        <ProjectCard 
+        src={chat}
+        link="https://chat-c2gt.onrender.com"
+        h3="Chat-App"
+        p="Chat-App"
         />
         <ProjectCard 
         src={cryptoApp}
