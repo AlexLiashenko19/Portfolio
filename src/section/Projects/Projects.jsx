@@ -5,6 +5,7 @@ import cryptoApp from '../../assets/icons8-crypto-256.png'
 import fitnes from  '../../assets/fitlift.png'
 import twitti from  '../../assets/icons8-x-twitti-250.png'
 import chat from  '../../assets/live-chat.png'
+import aqua from '../../assets/aqua-track.png'
 
 
 const Projects = () => {
@@ -17,6 +18,12 @@ const Projects = () => {
         link="https://twitti.onrender.com/profile/Alex"
         h3="Social Media App"
         p="Social Media App"
+        />
+        <ProjectCard 
+        src={aqua}
+        link="https://aqua-track-project.netlify.app/"
+        h3="Aqua Track"
+        p="Aqua Track"
         />
         <ProjectCard 
         src={cinemania}

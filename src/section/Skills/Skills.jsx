@@ -13,9 +13,11 @@ const Skills = () => {
         <SkillList icon={checkMarkIcon} skill='TypeScript'/>
         <SkillList icon={checkMarkIcon} skill='React'/>
         <SkillList icon={checkMarkIcon} skill='Node'/>
+        <SkillList icon={checkMarkIcon} skill='Vue'/>
       </div>
       <hr/>
       <div className={styles.skillsList}>
+      <SkillList icon={checkMarkIcon} skill='Angular'/>
         <SkillList icon={checkMarkIcon} skill='Redux'/>
         <SkillList icon={checkMarkIcon} skill='Webpack'/>
         <SkillList icon={checkMarkIcon} skill='Git'/>
