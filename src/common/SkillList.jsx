@@ -1,10 +1,10 @@
-const SkillList = ({icon, skill}) => {
+const SkillList = ({ icon, skill }) => {
   return (
     <span>
-        <img src={icon} alt="Checkmark icon" />
-        <p>{skill}</p>
-        </span>
-  )
-}
+      <img src={icon} alt="Checkmark icon" />
+      <p>{skill}</p>
+    </span>
+  );
+};
 
-export default SkillList
+export default SkillList;

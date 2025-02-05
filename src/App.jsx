@@ -1,5 +1,4 @@
 import './App.css'
-import Contact from './section/Contact/Contact'
 import Footer from './section/Footer/Footer'
 import Hero from './section/Hero/Hero'
 import Projects from './section/Projects/Projects'
@@ -11,7 +10,6 @@ function App() {
       <Hero/>
       <Projects/>
       <Skills/>
-      <Contact/>
       <Footer/>
     </>
   )
