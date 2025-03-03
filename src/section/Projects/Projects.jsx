@@ -8,7 +8,7 @@ import aqua from "../../assets/aqua-track.png";
 import game from "../../assets/game-2048.png";
 import todo from "../../assets/to-do-list.png";
 import music from "../../assets/music-store.png";
-// import cryptoApp from "../../assets/icons8-crypto-256.png";
+import crm from "../../assets/free-icon-crm-2464106.png";
 
 const Projects = () => {
   return (
@@ -51,12 +51,12 @@ const Projects = () => {
           h3="Chat-App"
           p="Chat-App"
         />
-        {/* <ProjectCard 
-        src={cryptoApp}
-        link="https://crypto-app-three-alpha.vercel.app/"
-        h3="Cryptiks"
-        p="Crypto App"
-        /> */}
+        <ProjectCard 
+        src={crm}
+        link="https://crm-psi-seven.vercel.app/dashboard"
+        h3="crm"
+        p="Crm App"
+        />
         <ProjectCard
           src={music}
           link="https://alexliashenko19.github.io/Landing-Page/"
