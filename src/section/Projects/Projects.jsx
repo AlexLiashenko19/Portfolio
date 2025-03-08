@@ -18,14 +18,14 @@ const Projects = () => {
         <ProjectCard
           src={game}
           link="https://alexliashenko19.github.io/2048-Game/"
-          h3="Social Media App"
-          p="Social Media App"
+          h3="2048 Game"
+          p="2048 Game"
         />
         <ProjectCard
           src={todo}
           link="https://alexliashenko19.github.io/Todo-App/"
-          h3="Social Media App"
-          p="Social Media App"
+          h3="Todo App App"
+          p="Todo App App"
         />
         <ProjectCard
           src={twitti}
@@ -54,7 +54,7 @@ const Projects = () => {
         <ProjectCard 
         src={crm}
         link="https://crm-psi-seven.vercel.app/dashboard"
-        h3="crm"
+        h3="Crm"
         p="Crm App"
         />
         <ProjectCard
